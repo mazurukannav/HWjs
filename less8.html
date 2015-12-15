@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Less8</title>
+			<script> 
+				function s(v) { document.getElementById('res').value = v } 
+				function a(v) { document.getElementById('res').value += v } 
+				function e() { try { s(eval(document.getElementById('res').value)) } catch(e) { s('Error') } }
+				
+			</script>
+	</head>
+	<body>
+		<body>
+			 <input type="text" name="res" id="res" value=""> 
+			</br>
+			<button onclick="a('7')">7</button>
+			<button onclick="a('8')">8</button>
+			<button onclick="a('9')">9</button>
+			<button onclick="a('+')">+</button></br>
+			<button onclick="a('4')">4</button>
+			<button onclick="a('5')">5</button>
+			<button onclick="a('6')">6</button>
+			<button onclick="a('-')">-</button></br>
+			<button onclick="a('1')">1</button>
+			<button onclick="a('2')">2</button>
+			<button onclick="a('3')">3</button>
+			<button id="equal" onclick="e()">=</button></br>
+			<button onclick="a('*')">*</button>
+			<button onclick="a('0')">0</button>
+			<button onclick="a('/')">/</button>
+			<button onclick="s('')">C</button>			
+			
+			
+  
+			
+			
+	</body>
+</html>
